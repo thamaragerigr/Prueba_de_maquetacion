@@ -65,17 +65,10 @@ h4 {
     width: 90%;
     height: 100%;
     /*posicion*/
-
-     top: 100px;
-    padding: 0;
- 
-    margin-left:510px ; 
-    /*estilo*/
- 
     position: absolute;
     left: 50%;
+    top: 100px;
     transform: translate(-50%, -50%); 
-   
 }
 
  .menu_show {
@@ -251,10 +244,10 @@ h4 {
         left: 50%;
         transform: translate(-50%); 
     }
+
     #logotipo {
         height: 70px;
         font-size: 25px;
         line-height: 30px;
-
     }
   }
