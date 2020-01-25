@@ -13,294 +13,410 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <!-- css file-->
+    <!-- CSS file-->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- GoogleFonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/afa329d86a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    
+    <div class=" navbar navbar-expand-lg navbar-light" id="menu">
+      <a class="navbar-brand " href="#" id="logotipo"
+        >LOGOTIPO <br />
+        IMAGEN</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Sección 1<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sección 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sección 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sección 4</a>
+          </li>
+        </ul>
+
+        <button id="button-language" type="submit">Inglés</button>
+      </div>
+      <!--class="collapse navbar-collapse"-->
+    </div>
+
     <div class="container-fluid">
-        <div class="row"><!--Container 1/ Primera division-->
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6"><!--Logo-->
-                                <img alt="Logotipo" src="images/imagen.png" />
-                            </div><!--Logo-->
-                            
-                            <div class="col-md-6"><!--Menu-->
-                                <ul class="nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="#">Sección 1</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Sección 2</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link disabled" href="#">Sección 3</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link disabled" href="#">Sección 4</a>
-                                    </li>
-                                </ul>
-                            </div><!--Menu-->
-                        </div>
+      <!--Container 1/ Primera division -->
+      <div class="row" id="nav-bar-general">
+        <!-- <div id="menu-background"></div> --> 
+        
+        <!-- class="col-xs-12 navbar navbar-expand-lg navbar-light"-->
 
-                    </div>
-
-                    <div class="col-md-6"><!--Boton-idioma-->
-                        <button type="button" class="btn btn-success">Inglés</button>
-                    </div><!--Boton-idioma-->
-                </div><!--Container 1/ Primera division-->
-
-
-                <div class="row"><!--Container 2/ Segunda division-->
-                    <div class="col-md-12">
-                        <h3>
-                            h3. Lorem ipsum dolor sit amet.
-                        </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="row" id="slider">
+          <div id="inner-slider">
+            <h1>
+              Vestibulum ante ipsum primis in faucibus
+            </h1>
+            <p>
+              Morbi in sollicitudin lorem. Fusce gravida ipsum eros, at laoreet
+              velit auctor non. Sed aliquam finibus viverra. Vestibulum id massa
+              mi. Nunc non lectus ut tortor fermentum tincidunt. Suspendisse
+              feugiat sit amet
+            </p>
+          </div>
+          <!--inner-slider-->
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
+        <!--slider-->
+      </div>
+      <!--Container 1/ Primera division-->
 
-                    <div class="col-md-3">
-                        <div class="card">
-                            <h5 class="card-header"> Lorem ipsum dolor sit amet</h5>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Card content
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                Card footer
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <h5 class="card-header">
-                                Card title
-                            </h5>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Card content
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                Card footer
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <h5 class="card-header">
-                                Card title
-                            </h5>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Card content
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                Card footer
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <h5 class="card-header">
-                                Card title
-                            </h5>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Card content
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                Card footer
-                            </div>
-                        </div>
-                    </div>
-
+      <!--Container 2/ Segunda division-->
+      <div class="row " id="container_two">
+        <div class="col-md-12 ">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/imagen-copia-11.png"
+                  alt="Imagen"
+                />
+                <div class="card-body text-center">
+                  <img
+                    class="avatar rounded-circle"
+                    src="images/white.jpg"
+                    alt="White photo"
+                  />
+                  <h6 class="card-title font-weight-bold">
+                    Fusce gravida ipsum eros
+                  </h6>
+                  <p class="card-text">
+                    Akjbawfb a k aw oiogs eioiowe ioeigsejgvsek jv sg shkg sehkg
+                    sehkg wja wdjakwjd awj awd awlawfn ajwk jkaw awga
+                  </p>
                 </div>
+                <!--card-body-->
+              </div>
+              <!--card-->
             </div>
-        </div><!--Container 2/ Segunda division-->
+            <!--class="col-lg-3 col-md-6"-->
 
-        
-        <div class="row" id="container_three"><!--Container 3/ Tercera division-->
-        
-                    <div class="col-md-9" id="container_gray">
-                        <div class="row">
-                            <!--Columna izquierda-->
-                            <div class="col-lg-6">
+            <div class="col-lg-3 col-md-6">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/imagen-copia-11.png"
+                  alt="Imagen"
+                />
+                <div class="card-body text-center">
+                  <img
+                    class="avatar rounded-circle"
+                    src="images/white.jpg"
+                    alt="White photo"
+                  />
+                  <h6 class="card-title font-weight-bold">
+                    Fusce gravida ipsum eros
+                  </h6>
+                  <p class="card-text">
+                    Akjbawfb a k aw oiogs eioiowe ioeigsejgvsek jv sg shkg sehkg
+                    sehkg wja wdjakwjd awj awd awlawfn ajwk jkaw awga
+                  </p>
+                </div>
+                <!--card-body-->
+              </div>
+              <!--card-->
+            </div>
+            <!--class="col-lg-3 col-md-6"-->
 
-                                <div class="row"> <!--Título 1-->
-                                    <div class="col-lg-5">
-                                        <img alt="Imagen" src="images/imagen.png" width="168px"/>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h4>Título 1</h4>
-                                        <p>
-                                            Donec id elit non mi porta gravida at eget metus. 
-                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                             condimentum nibh.
-                                        </p>
-                                    </div>
-                                </div><!--Título 1-->
+            <div class="col-lg-3 col-md-6">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/imagen-copia-11.png"
+                  alt="Imagen"
+                />
+                <div class="card-body text-center">
+                  <img
+                    class="avatar rounded-circle"
+                    src="images/white.jpg"
+                    alt="White photo"
+                  />
+                  <h6 class="card-title font-weight-bold">
+                    Fusce gravida ipsum eros,
+                  </h6>
+                  <p class="card-text">
+                    Akjbawfb a k aw oiogs eioiowe ioeigsejgvsek jv sg shkg sehkg
+                    sehkg wja wdjakwjd awj awd awlawfn ajwk jkaw awga
+                  </p>
+                </div>
+                <!--card-body-->
+              </div>
+              <!--card-->
+            </div>
+            <!--class="col-lg-3 col-md-6"-->
 
-                                <div class="row"> <!--Título 1-->
-                                    <div class="col-lg-5">
-                                        <img alt="Imagen" src="images/imagen.png" width="168px"/>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h4>Título 1</h4>
-                                        <p>
-                                            Donec id elit non mi porta gravida at eget metus. 
-                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                             condimentum nibh.
-                                        </p>
-                                    </div>
-                                </div><!--Título 1-->
+            <div class="col-lg-3 col-md-6">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/imagen-copia-11.png"
+                  alt="Imagen"
+                />
+                <div class="card-body text-center">
+                  <img
+                    class="avatar rounded-circle"
+                    src="images/white.jpg"
+                    alt="White photo"
+                  />
+                  <h6 class="card-title font-weight-bold">
+                    Fusce gravida ipsum eros
+                  </h6>
+                  <p class="card-text">
+                    Akjbawfb a k aw oiogs eioiowe ioeigsejgvsek jv sg shkg sehkg
+                    sehkg wja wdjakwjd awj awd awlawfn ajwk jkaw awga
+                  </p>
+                </div>
+                <!--card-body-->
+              </div>
+              <!--card-->
+            </div>
+            <!--class="col-lg-3 col-md-6"-->
+          </div>
+          <!--row-->
+        </div>
+        <!--class="col-md-12 "-->
+      </div>
+      <!--Container 2/ Segunda division-->
 
-                                <div class="row"> <!--Título 1-->
-                                    <div class="col-lg-5">
-                                        <img alt="Imagen" src="images/imagen.png" width="168px"/>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h4>Título 1</h4>
-                                        <p>
-                                            Donec id elit non mi porta gravida at eget metus. 
-                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                             condimentum nibh.
-                                        </p>
-                                    </div>
-                                </div><!--Título 1-->
+      <!--Container 3/ Tercera division-->
+      <div class="row justify-content-around" id="container_three">
+        <!--Container 3/ Tercera division-->
+        <div class="col-lg-8 m-1" id="container_gray">
+          <div class="row">
+            <!--Columna izquierda-->
+            <div class="col-lg-6">
+              <div class="row">
+                <!--Título 1-->
+                <div class="col-4">
+                  <img alt="Imagen" src="images/imagen.png" width="100%" />
+                </div>
+                <div class="col-8">
+                  <h4>Título 1</h4>
+                  <p>
+                    Sed tempus accumsan risus, id facilisis ligula faucibus ut
+                    praesent ut tincidunt purus nunc quis pretium ante, non
+                    efficitur nulla praesent id pellentesque justo.
+                  </p>
+                </div>
+              </div>
+              <!--Título 1-->
 
-                                <div class="row"> <!--Título 1-->
-                                    <div class="col-lg-5">
-                                        <img alt="Imagen" src="images/imagen.png" width="168px"/>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h4>Título 1</h4>
-                                        <p>
-                                            Donec id elit non mi porta gravida at eget metus. 
-                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                             condimentum nibh.
-                                        </p>
-                                    </div>
-                                </div><!--Título 1-->
-                            </div><!--Columna izquierda-->
+              <div class="row">
+                <!--Título 1-->
+                <div class="col-4">
+                  <img alt="Imagen" src="images/imagen.png" width="100%" />
+                </div>
+                <div class="col-8">
+                  <h4>Título 1</h4>
+                  <p>
+                    Sed tempus accumsan risus, id facilisis ligula faucibus ut
+                    praesent ut tincidunt purus nunc quis pretium ante, non
+                    efficitur nulla praesent id pellentesque justo.
+                  </p>
+                </div>
+              </div>
+              <!--Título 1-->
 
-                             <!--Columna izquierda-->
-                             <div class="col-lg-6">
+              <div class="row">
+                <!--Título 1-->
+                <div class="col-4">
+                  <img alt="Imagen" src="images/imagen.png" width="100%" />
+                </div>
+                <div class="col-8">
+                  <h4>Título 1</h4>
+                  <p>
+                    Sed tempus accumsan risus, id facilisis ligula faucibus ut
+                    praesent ut tincidunt purus nunc quis pretium ante, non
+                    efficitur nulla praesent id pellentesque justo.
+                  </p>
+                </div>
+              </div>
+              <!--Título 1-->
 
-                                <div class="row"> <!--Título 1-->
-                                    <div class="col-lg-5">
-                                        <img alt="Imagen" src="images/imagen.png" width="168px"/>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h4>Título 1</h4>
-                                        <p>
-                                            Donec id elit non mi porta gravida at eget metus. 
-                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                             condimentum nibh.
-                                        </p>
-                                    </div>
-                                </div><!--Título 1-->
+              <div class="row">
+                <!--Título 1-->
+                <div class="col-4">
+                  <img alt="Imagen" src="images/imagen.png" width="100%" />
+                </div>
+                <div class="col-8">
+                  <h4>Título 1</h4>
+                  <p>
+                    Sed tempus accumsan risus, id facilisis ligula faucibus ut
+                    praesent ut tincidunt purus nunc quis pretium ante, non
+                    efficitur nulla praesent id pellentesque justo.
+                  </p>
+                </div>
+              </div>
+              <!--Título 1-->
+            </div>
+            <!--Columna izquierda-->
 
-                                <div class="row"> <!--Título 1-->
-                                    <div class="col-lg-5">
-                                        <img alt="Imagen" src="images/imagen.png" width="168px"/>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h4>Título 1</h4>
-                                        <p>
-                                            Donec id elit non mi porta gravida at eget metus. 
-                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                             condimentum nibh.
-                                        </p>
-                                    </div>
-                                </div><!--Título 1-->
+            <!--Columna izquierda-->
+            <div class="col-lg-6 ">
+              <div class="row">
+                <!--Título 1-->
+                <div class="col-4">
+                  <img alt="Imagen" src="images/imagen.png" width="100%" />
+                </div>
+                <div class="col-8">
+                  <h4>Título 1</h4>
+                  <p>
+                    Sed tempus accumsan risus, id facilisis ligula faucibus ut
+                    praesent ut tincidunt purus nunc quis pretium ante, non
+                    efficitur nulla praesent id pellentesque justo.
+                  </p>
+                </div>
+              </div>
+              <!--Título 1-->
 
-                                <div class="row"> <!--Título 1-->
-                                    <div class="col-lg-5">
-                                        <img alt="Imagen" src="images/imagen.png" width="168px"/>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h4>Título 1</h4>
-                                        <p>
-                                            Donec id elit non mi porta gravida at eget metus. 
-                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                             condimentum nibh.
-                                        </p>
-                                    </div>
-                                </div><!--Título 1-->
+              <div class="row">
+                <!--Título 1-->
+                <div class="col-4">
+                  <img alt="Imagen" src="images/imagen.png" width="100%" />
+                </div>
+                <div class="col-8">
+                  <h4>Título 1</h4>
+                  <p>
+                    Sed tempus accumsan risus, id facilisis ligula faucibus ut
+                    praesent ut tincidunt purus nunc quis pretium ante, non
+                    efficitur nulla praesent id pellentesque justo.
+                  </p>
+                </div>
+              </div>
+              <!--Título 1-->
 
-                                <div class="row"> <!--Título 1-->
-                                    <div class="col-lg-5">
-                                        <img alt="Imagen" src="images/imagen.png" width="168px"/>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h4>Título 1</h4>
-                                        <p>
-                                            Donec id elit non mi porta gravida at eget metus. 
-                                            Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                             condimentum nibh.
-                                        </p>
-                                    </div>
-                                </div><!--Título 1-->
-                            </div><!--Columna izquierda-->
+              <div class="row">
+                <!--Título 1-->
+                <div class="col-4">
+                  <img alt="Imagen" src="images/imagen.png" width="100%" />
+                </div>
+                <div class="col-8">
+                  <h4>Título 1</h4>
+                  <p>
+                    Sed tempus accumsan risus, id facilisis ligula faucibus ut
+                    praesent ut tincidunt purus nunc quis pretium ante, non
+                    efficitur nulla praesent id pellentesque justo.
+                  </p>
+                </div>
+              </div>
+              <!--Título 1-->
 
-                        </div>
-                    </div>
+              <div class="row ">
+                <!--Título 1-->
+                <div class="col-4">
+                  <img alt="Imagen" src="images/imagen.png" width="100%" />
+                </div>
+                <div class="col-8">
+                  <h4>Título 1</h4>
+                  <p>
+                    Sed tempus accumsan risus, id facilisis ligula faucibus ut
+                    praesent ut tincidunt purus nunc quis pretium ante, non
+                    efficitur nulla praesent id pellentesque justo.
+                  </p>
+                </div>
+              </div>
+              <!--Título 1-->
+            </div>
+            <!--Columna izquierda-->
+          </div>
+          <!-- class="row" -->
+        </div>
+        <!--class="col-md-9" id="container_gray" -->
 
+        <!--Sidebar container  ml-auto-->
+        <div class="col-lg-3  m-1" id="sidebar">
+          <div class="row sidebars">
+            <!--Sidebar 1-->
+            <h4>Sidebar 1</h4>
+            <p>
+              Sed pretium lacinia ultricies. Donec vehicula arcu rhoncus,
+              eleifend risus eu, semper mi. Maecenas accumsan turpis eget justo
+              blandit, nec pretium nunc molestie.
+            </p>
+          </div>
+          <!--Sidebar 1-->
 
-                    <!--Sidebar container-->
-                    <div class="col-lg-3" id="sidebar">
-                        <div class="row sidebars" ><!--Sidebar 1-->
-                                <h5>Sidebar 1</h5>
-                                <p>
-                                    Donec id elit non mi porta gravida at eget metus. 
-                                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                     condimentum nibh, ut fermentum massa justo sit amet 
-                                     risus. Etiam porta sem malesuada magna mollis euismod.
-                                      Donec sed odio dui.
-                                </p>
-                        </div><!--Sidebar 1-->
+          <div class="row sidebars">
+            <!--Sidebar 2-->
+            <h4>Sidebar 2</h4>
+            <p>
+              Sed pretium lacinia ultricies. Donec vehicula arcu rhoncus,
+              eleifend risus eu, semper mi. Maecenas accumsan turpis eget justo
+              blandit, nec pretium nunc molestie.
+            </p>
+          </div>
+          <!--Sidebar 2-->
 
-                        <div class="row"><!--Sidebar 2-->
-                                <h5>Sidebar 2</h5>
-                                <p>
-                                    Donec id elit non mi porta gravida at eget metus. 
-                                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                     condimentum nibh, ut fermentum massa justo sit amet 
-                                     risus. Etiam porta sem malesuada magna mollis euismod.
-                                      Donec sed odio dui.
-                                </p>
-                        </div><!--Sidebar 2-->
+          <div class="row sidebars">
+            <!--Sidebar 3-->
+            <h4>Sidebar 3</h4>
+            <p>
+              Sed pretium lacinia ultricies. Donec vehicula arcu rhoncus,
+              eleifend risus eu, semper mi. Maecenas accumsan turpis eget justo
+              blandit, nec pretium nunc molestie.
+            </p>
+          </div>
+          <!--Sidebar 3-->
+        </div>
+        <!--Sidebar container-->
+      </div>
+      <!--Container three-->
+    </div>
+    <!--Container fluid-->
 
-                        <div class="row"><!--Sidebar 3-->
-                                <h5>Sidebar 3</h5>
-                                <p>
-                                    Donec id elit non mi porta gravida at eget metus. 
-                                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                                     condimentum nibh, ut fermentum massa justo sit amet 
-                                     risus. Etiam porta sem malesuada magna mollis euismod.
-                                      Donec sed odio dui.
-                                </p>
-                        </div><!--Sidebar 3-->
-                    </div><!--Sidebar container-->
-        </div><!--Container three-->
-    </div><!--Container general-->
+    <!--jquery-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
 
     <!--Javascript script tag-->
     <script src="js/index.js"></script>

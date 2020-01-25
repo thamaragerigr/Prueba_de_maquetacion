@@ -1,8 +1,13 @@
-p {
-    font-size: 18px;
-}
+/*Colors:
+rgb(235, 235, 235),rgba(130, 130, 130, .65), rgb(87, 86, 86)
+rgb(255, 142, 142), rgb(138, 0, 18) , rgb(0, 128, 53), rgb(155, 98, 155)
 
+Fonts:'Open Sans', sans-serif;
+*/
 
+/* -----------------------------
+        ESTILO GENERAL
+----------------------------- */
 * {
     margin: 0;
     padding: 0;
@@ -10,82 +15,223 @@ p {
 
 body {
     background-color: rgb(235, 235, 235);
-}
-
-header {
-    background-color: #b92b2b;
-    display: flex;
-}
-
-
-#slider {
-    width: 100%;
-    height: 786px;
-    background-color: rgb(255, 142, 142);
-}
-
-#inner-slider {
-    position: relative;
-    top: 250px;
-    width: 80%;
-    height: 489px;
-    opacity: 0.65;
-    background-color: #f6f6f6;
-    margin: auto;
-    color: white;
-    text-align: center;
-    padding-top: 60px;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-size: 60px;
+    /*estilo*/
+    font-weight: bolder;
+    vertical-align: middle;
+    font-size: 7vmin;
+    /*opacidad*/
     opacity: 1;
 }
 
+h4 {
+    font-weight: 900;
+}
+
+
+/* -----------------------------
+        CONTAINER 1
+----------------------------- */
+
+#container_one {
+    background-color: rgb(255, 142, 142);
+    margin: 0;
+    
+}
+
+/*--------- nav----------- */
+#logotipo {
+    /*dimensiones*/
+    min-width: 350px;
+    /*posicion*/
+    margin: 0;
+    padding: 7px;
+    /*estilo*/
+    background-color: rgb(0, 128, 53);
+    text-align: center;
+    font-size: 30px;
+}
+
+#nav-bar-general{
+    background-color: rgb(255, 142, 142);
+    width: 100%; 
+    margin: 0;
+}
+
 #menu {
-    float: left;
+    /*dimensiones*/
+    width: 90%;
+    height: 100%;
+    /*posicion*/
+    position: absolute;
+    top: 100px;
+    padding: 0;
+ 
+    margin-left:510px ;
+    /*estilo*/
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
 }
 
 #menu ul li a {
+    max-height: 103px;
+    /*estilo*/
     color: black;
+    font-size: 20px;
+    /*posicion*/
+    padding: 37px;
+     /*transicion*/
     transition: all .3s;
 }
 
 #menu ul li a:hover {
-    color: black;
     background-color: white;
-
 }
 
+.navbar button {
+  background-color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 0;
+  width: 70px;
+  height: 60px;
+  outline: 0;
+}
+
+.navbar button i {
+    color: black;
+    font-size: 40px;
+    
+  }
+  
+.navbar-collapse{
+    background-color: rgb(138, 0, 18);
+    color: black;
+    position: relative;
+    
+}
+
+/* #menu-background{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+} */
+
 #button-language {
+     /*estilo*/
     color: white;
     background-color: green;
     border: none;
-    font-size: 24px;
+    font-size: 17px;
+     /*posicion*/
+    margin-right: 20px;
     padding: 10px;
     float: right;
+    /*cursor*/
     cursor: pointer;
-    float: right;
 }
 
-#container_three{
-    margin: 30px 30px 170px 30px;
+/*--------- slider----------- */
+#slider {
+    background-color: rgb(255, 142, 142);
+    min-height: 800px;
+}
+
+#inner-slider {
+    /*dimensiones*/
+    width: 65%;
+    height: 60%;
+    /*estilo*/
+    color: rgb(235, 235, 235);
+    background-color: rgba(130, 130, 130, .65);
+    text-align: center;
+    /*posicion*/
+    margin: 250px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.navbar {
+	margin:0 !important;
+	padding: 0px !important;
+}
+/* -----------------------------
+        CONTAINER 2
+----------------------------- */
+#container_two {
+    margin: 60px 0px -10px 0px;
+}
+
+/*--------- cards----------- */
+.card {
+    margin-bottom: 30px;
+}
+
+.avatar {
+    /*dimensiones*/
+    max-width: 7rem;
+    /*posicion*/
+    margin-top: -5rem;
+    margin-bottom: 1rem;
+    /*estilo*/
+    border: rgb(235, 235, 235) solid 3px;
+}
+
+.card p {
+    /*dimensiones*/
+    width: 80%;
+    /*posicion*/
+    margin: auto;
+    /*estilo*/
+    font-size: 14px;
+}
+
+
+/* -----------------------------
+        CONTAINER 3
+----------------------------- */
+
+#container_three {
+    /*posicion*/
+    margin: 30px 0px 170px 0px;
+    /*estilo*/
     color: #c9c9c9;
 }
 
+/*--------- gray container----------- */
 #container_gray {
-    background-color: rgb(87, 86, 86);
-    padding: 60px;
-    font: 16px;
+    /*dimensiones*/
     width: 100%;
+    /*posicion*/
+    padding: 30px;
+     /*estilo*/
+    font: 16px;
+    background-color: rgb(87, 86, 86);
 }
 
+#container_gray img {
+    padding: 5px;
+}
 
+/*--------- sidebar----------- */
 #sidebar {
-    background-color: rgb(155, 98, 155);
+     /*dimensiones*/
     height: 100%;
+    /*posicion*/
     padding: 35px;
-
+    /*estilo*/
+    background-color: rgb(155, 98, 155);
 }
 
+.sidebars {
+    padding: 20px 0px;
+}
