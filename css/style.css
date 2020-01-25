@@ -240,7 +240,7 @@ h4 {
     .navbar-collapse{
         position: absolute;
         width: 100%;
-        top: 400px;
+        top: 350px;
         left: 50%;
         transform: translate(-50%); 
     }
