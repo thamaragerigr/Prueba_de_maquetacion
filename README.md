@@ -1,2 +1,2 @@
 # Prueba_de_maquetación
-Link : [ prueba-de-maquetacion.netlify.com ]
+Link : [https://prueba-de-maquetacion.netlify.com/]
